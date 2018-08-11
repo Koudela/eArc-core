@@ -1,9 +1,9 @@
 {
     "name": "earc/core",
-    "description": "eArc - the explicit architecture framework - core functionality",
+    "description": "eArc - the explicit architecture framework - core component/dispatcher",
     "type": "library",
     "license": "MIT",
-    "version": "0.1-rc",
+    "version": "0.1",
     "authors": [
         {
             "name": "Thomas Koudela",
