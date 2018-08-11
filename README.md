@@ -1,6 +1,9 @@
 # eArc core
 
-Core component of the [eArc framework](https://github.com/Koudela/eArc-core).
+Core component of the eArc framework. The eArc stands for explicit architecture. 
+It is about the urge to make code as easy to comprehend as possible and the
+strive to touch the programmers freedom to code as little as possible. In short
+it is about simplicity and good architecture.
 
 The eArc core holds the dispatcher component. It controls the lifecycle of the
 app.
