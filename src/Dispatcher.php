@@ -101,9 +101,9 @@ class Dispatcher
             $newRouter = $accessController($router, $this->container);
 
             // start the dispatching process with the new router if the access 
-            // controller returns a new instance of a class implementing the
+            // controller returns an instance of a class implementing the
             // LocateControllerInterface
-            if ($newRouter instanceof LocateControllerInterface && $newRouter != $router) {
+            if ($newRouter instanceof LocateControllerInterface) {
                 $this->dispatch($newRouter);
                 return;
             }
@@ -124,9 +124,9 @@ class Dispatcher
         $newRouter = $mainController($router, $this->container);
 
         // start the dispatching process with the new router if the main
-        // controller returns a new instance of a class implementing the
+        // controller returns an instance of a class implementing the
         // LocateControllerInterface
-        if ($newRouter instanceof LocateControllerInterface && $newRouter != $router) {
+        if ($newRouter instanceof LocateControllerInterface) {
             $this->dispatch($newRouter);
             return;
         }
