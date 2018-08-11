@@ -7,8 +7,8 @@ it is about simplicity and good architecture.
 
 The eArc core holds the dispatcher component. It controls the lifecycle of the
 app.
- 
- ## Table of Contents
+
+## Table of Contents
  
  - [Installation](#installation)
  - [Usage](#usage)
@@ -19,6 +19,8 @@ app.
      - [The main controller](#the-main-controller)
      - [Middleware](#middleware) 
        - [Example](#example)
+ - [Releases](#releases)
+   - [release v0.1](#release-v01)
 
 ## Installation
 
@@ -28,6 +30,9 @@ install the component via composer.
 ```
 $ composer install earc/core
 ```
+
+Hint: If you want to install the eArc framework use the
+[earc/minimal package](https://github.com/Koudela/eArc-minimal).
 
 ## Usage
 
@@ -254,3 +259,9 @@ $dispatcher->registerDispatchStart(function(Router $router, \Psr\Container\Conta
 
 $dispatcher->run();
 ```
+
+## Releases
+
+### release v0.1
+
+the first official release
