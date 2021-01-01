@@ -20,7 +20,7 @@ or some of its components will never need to install this package directly.
 
 ## Configuration
 
-Place an file named `.earc-config.php` beneath the vendor dir. Its the configuration
+Place a file named `.earc-config.php` beneath the vendor dir. It's the configuration
 file for all the earc components.
 
 ```php

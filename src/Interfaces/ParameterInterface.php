@@ -4,7 +4,7 @@
  *
  * @package earc/core
  * @link https://github.com/Koudela/earc-core/
- * @copyright Copyright (c) 2018-2020 Thomas Koudela
+ * @copyright Copyright (c) 2018-2021 Thomas Koudela
  * @license http://opensource.org/licenses/MIT MIT License
  */
 
