@@ -81,6 +81,7 @@ on each other.
 
  - (advanced) dependency injection: [earc/di](https://github.com/Koudela/eArc-di)
  - (lucid) event handling: [earc/event-tree](https://github.com/Koudela/eArc-eventTree)
+ - (lucid) routing: [earc/data](https://github.com/Koudela/eArc-data)
  - (explicit) routing: [earc/router](https://github.com/Koudela/eArc-router)
 
 ## Releases
