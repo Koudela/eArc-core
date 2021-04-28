@@ -15,6 +15,7 @@ or some of its components will never need to install this package directly.
    - [Trouble shooting](#trouble-shooting)
  - [Public components](#public-components)
  - [Releases](#releases)
+   - [Release 1.1](#release-11)
    - [Release 1.0](#release-10)
    - [Release 0.1](#release-01)
 
@@ -83,6 +84,10 @@ on each other.
  - (explicit) routing: [earc/router](https://github.com/Koudela/eArc-router)
 
 ## Releases
+
+### Release 1.1
+
+- PHP ^7.2 || ^8.0
 
 ### Release 1.0
 

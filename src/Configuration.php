@@ -26,7 +26,7 @@ abstract class Configuration implements ParameterInterface
     {
         if (!function_exists('di_import_param')) {
             throw new InvalidConfigurationException(sprintf(
-                '`earc/di` is not bootstrapped. Please place the line `%s::init();` right before the `%s::build()` call.',
+                '{f3e7ec6d-2e5d-4794-9c18-2118b2564631} `earc/di` is not bootstrapped. Please place the line `%s::init();` right before the `%s::build()` call.',
                 DI::class, self::class
             ));
         }
@@ -46,14 +46,14 @@ abstract class Configuration implements ParameterInterface
 
         if (!is_file($configFile)) {
             throw new InvalidConfigurationException(sprintf(
-                'Configuration file `%s` not found.', $configFile
+                '{f9c4bd7e-ff09-465f-a94e-bef4eec84dd9} Configuration file `%s` not found.', $configFile
             ));
         }
 
         $config = include($configFile);
 
         if (!is_array($config)) {
-            throw new InvalidConfigurationException(sprintf('`%s` has to return an array.', $configFile));
+            throw new InvalidConfigurationException(sprintf('{b5d0bc54-b221-4b5e-a590-2c01326fe705} `%s` has to return an array.', $configFile));
         }
 
         di_import_param($config);
