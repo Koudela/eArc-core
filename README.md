@@ -1,25 +1,25 @@
 # eArc core
 
 Core component of the eArc framework. The eArc stands for **e**xplicit **arc**hitecture. 
-It is about the urge to make code as easy to comprehend as possible and the
-strive to touch the programmers freedom to code as little as possible. In short
+It is about the urge to make code as easy to comprehend as possible, and the
+striving to touch the programmers' freedom to code as little as possible. In short,
 it is about simplicity and good architecture.
 
-The Core handles aspects all earc components have in common. Users of the framework
+earc/core handles aspects all earc components have in common. Users of the framework
 or some of its components will never need to install this package directly.
 
-## Table of Contents
+## table of Contents
  
- - [Configuration](#configuration)
-   - [Customizing](#customizing)
-   - [Trouble shooting](#trouble-shooting)
- - [Public components](#public-components)
- - [Releases](#releases)
-   - [Release 1.1](#release-11)
-   - [Release 1.0](#release-10)
-   - [Release 0.1](#release-01)
+ - [configuration](#configuration)
+   - [customizing](#customizing)
+   - [troubleshooting](#troubleshooting)
+ - [public components](#public-components)
+ - [releases](#releases)
+   - [release 1.1](#release-11)
+   - [release 1.0](#release-10)
+   - [release 0.1](#release-01)
 
-## Configuration
+## configuration
 
 Place a file named `.earc-config.php` beneath the vendor dir. It's the configuration
 file for all the earc components.
@@ -46,7 +46,7 @@ Configuration::build();
 
 That's it. You're ready to go.
 
-### Customizing
+### customizing
 
 If you want to put the configuration file somewhere else you can pass the filename
 as parameter to the `build` method.
@@ -54,7 +54,7 @@ as parameter to the `build` method.
 Hint: If you prefer the YAML format and do not use php constructs in your configuration,
 you can use a yaml parser. 
 
-### Trouble shooting
+### troubleshooting
 
 If you get an error
 
@@ -76,24 +76,26 @@ Configuration::build();
 
 ## Public components
 
-All components can be used without the framework. Although some components depend
+All components can be used without the framework. Some components may depend
 on each other.
 
  - (advanced) dependency injection: [earc/di](https://github.com/Koudela/eArc-di)
  - (lucid) event handling: [earc/event-tree](https://github.com/Koudela/eArc-eventTree)
- - (lucid) routing: [earc/data](https://github.com/Koudela/eArc-data)
+ - (lucid) persistence abstraction layer: [earc/data](https://github.com/Koudela/eArc-data)
  - (explicit) routing: [earc/router](https://github.com/Koudela/eArc-router)
+ - (reduced) parameter transformation: [earc/parameter-transformer](https://github.com/Koudela/eArc-parameter-transformer)
+ - (reduced) object/array casting: [earc/cast](https://github.com/Koudela/eArc-cast)
 
-## Releases
+## releases
 
-### Release 1.1
+### release 1.1
 
 - PHP ^7.2 || ^8.0
 
-### Release 1.0
+### release 1.0
 
 - complete rewrite
 
-### Release 0.1
+### release 0.1
 
 - the first official release
